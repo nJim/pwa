@@ -1,4 +1,4 @@
-var GHPATH = '/pwa-on-github';
+var GHPATH = '/pwa';
 var APP_PREFIX = 'gppwa_';
 var VERSION = 'version_002';
 var URLS = [
