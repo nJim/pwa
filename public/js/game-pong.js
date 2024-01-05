@@ -1,3 +1,4 @@
+// Source: https://gist.github.com/straker/81b59eecf70da93af396f963596dfdc5
 const canvas = document.getElementById('game');
 const context = canvas.getContext('2d');
 const grid = 12;

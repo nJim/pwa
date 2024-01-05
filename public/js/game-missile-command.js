@@ -1,3 +1,4 @@
+// Source: https://gist.github.com/straker/afc4e2a30b6df772a5f9f6ef01751d41
 const canvas = document.getElementById('game');
 const context = canvas.getContext('2d');
 const groundY = 434;  // y position of where the ground starts

@@ -1,6 +1,6 @@
 {
-  "name": "Simple PWA",
-  "short_name": "PWA",
+  "name": "CoinOp PWArcade",
+  "short_name": "PWArcade",
   "description": "A Progressive Web App to demo at CompSci Practice Group",
   "start_url": "/index.html",
   "display": "standalone",
@@ -8,7 +8,12 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "assets/icon.png",
+      "src": "assets/icon-192.png",
+      "type": "image/png",
+      "sizes": "700x700"
+    },
+    {
+      "src": "assets/icon-700.png",
       "type": "image/png",
       "sizes": "700x700"
     }

@@ -1,3 +1,4 @@
+// Source: https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 

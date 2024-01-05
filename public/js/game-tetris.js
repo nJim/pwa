@@ -1,3 +1,5 @@
+// Source: https://gist.github.com/straker/3c98304f8a6a9174efd8292800891ea1
+
 // get a random integer between the range of [min,max]
 // @see https://stackoverflow.com/a/1527820/2124254
 function getRandomInt(min, max) {
