@@ -36,7 +36,7 @@ a {
 }
 .game__board {
   border: 1px solid white;
-  display: block;
+    display: block;
 }
 
 /** Brand wordmarks appear on the top of every page */
