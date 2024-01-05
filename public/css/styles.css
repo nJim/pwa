@@ -5,17 +5,38 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
 body {
-  background: black;
   position: relative;
+  background: black;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
 }
 #app {
   max-width: 675px;
   margin: 0 auto;
 }
-canvas {
+
+/** Game board and controls */
+.game {
+  margin-top: -40px;
+}
+.game__controls {
+  font-size: 2rem;
+  display: inline-block;
+  text-indent: -999em;
+  line-height: 1rem;
+}
+.game__controls::after {
+  content: "←";
+  display: block;
+  text-indent: 0;
+}
+.game__board {
   border: 1px solid white;
+  display: block;
 }
 
 /** Brand wordmarks appear on the top of every page */
@@ -66,7 +87,6 @@ canvas {
   -webkit-text-stroke: 1px #f008b7;
   z-index: 20;
 }
-
 @keyframes chrome_effect {
   0% {background-position:-680px 0;}
   10% {background-position:420px 0;}
