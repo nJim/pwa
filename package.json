@@ -1,0 +1,15 @@
+{
+  "name": "nJim/pwa",
+  "version": "1.0.0",
+  "description": "A Progressive Web App to demo at CompSci Practice Group",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "nJim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
