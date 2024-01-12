@@ -20,6 +20,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: actions/upload-pages-artifact@v2
         with:
-          folder: whichwebchef/public # The folder the action should deploy.
+          path: 'whichwebchef/public'
