@@ -27,3 +27,20 @@ self.addEventListener('install', (event) => {
       })
   );
 });
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.open(CACHE_NAME).then((cache) =>
+      cache.match(event.request).then((cacheResponse) => {
+        if (cacheResponse) {
+          return cacheResponse;
+        } else {
+          return fetch(event.request).then((networkResponse) => {
+            cache.put(event.request, networkResponse.clone());
+            return networkResponse;
+          });
+        }
+      })
+    )
+  );
+});
