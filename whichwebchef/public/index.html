@@ -8,7 +8,7 @@
     <title>Which Webchef</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="/pwa/manifest.json">
-    <link rel="icon" type="image/x-icon" href="/assets/icon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/pwa/assets/icon-16x16.png">
     <link rel="canonical" href="https://njim.github.io/pwa/" />
     <script src="app.js" defer></script>
   </head>
@@ -230,7 +230,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register(
-          '/service-worker.js',
+          '/pwa/service-worker.js',
           {scope: '/pwa/'}
         )
           .then((registration) => {
