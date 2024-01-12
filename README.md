@@ -8,7 +8,7 @@ This project serves as a demonstration of Progressive Web Apps (PWAs) features b
 
 ## Example 1: Which Webchef
 
-An variation of 'Guess Who'  with familiar faces, this demonstration walks through the scaffolding for setting up a progressive web app. We will utilize this example to showcase the app-like experience across various devices.
+An variation of 'Guess Who'  with familiar faces, this demonstration walks through the scaffolding for setting up a progressive web app. We will utilize this example to showcase the app-like experience across various devices. [Try it on Github Pages](https://njim.github.io/pwa/)
 
 ![Which Webchef](/whichwebchef/public/assets/screenshot.jpg 'Which Webchef')
 
