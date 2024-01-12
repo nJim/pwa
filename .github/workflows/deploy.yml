@@ -6,6 +6,10 @@ on:
       - main
 jobs:
   deploy-which-webchef:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
