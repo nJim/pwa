@@ -1,21 +1,22 @@
+var GHPATH = '/pwa';
 const CACHE_NAME = 'which-webchef-cache';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/manifest.json',
-  '/assets/icon-144x144.png',
-  '/assets/icon-192x192.png',
-  '/assets/icon-72x72.png',
-  '/assets/icon-16x16.png',
-  '/assets/icon-48x48.png',
-  '/assets/icon-96x96.png',
-  '/assets/icon-192x192-maskable.png',
-  '/assets/icon-512x512.png',
-  '/assets/webchefs1.webp',
-  '/assets/webchefs2.webp',
-  '/assets/webchefs3.webp'
+  `${GHPATH}/`,
+  `${GHPATH}/index.html`,
+  `${GHPATH}/styles.css`,
+  `${GHPATH}/app.js`,
+  `${GHPATH}/manifest.json`,
+  `${GHPATH}/assets/icon-144x144.png`,
+  `${GHPATH}/assets/icon-192x192.png`,
+  `${GHPATH}/assets/icon-72x72.png`,
+  `${GHPATH}/assets/icon-16x16.png`,
+  `${GHPATH}/assets/icon-48x48.png`,
+  `${GHPATH}/assets/icon-96x96.png`,
+  `${GHPATH}/assets/icon-192x192-maskable.png`,
+  `${GHPATH}/assets/icon-512x512.png`,
+  `${GHPATH}/assets/webchefs1.webp`,
+  `${GHPATH}/assets/webchefs2.webp`,
+  `${GHPATH}/assets/webchefs3.webp`
 ];
 
 self.addEventListener('install', (event) => {
